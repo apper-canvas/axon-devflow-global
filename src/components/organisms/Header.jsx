@@ -1,12 +1,16 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { motion } from 'framer-motion';
 import { useLocation } from 'react-router-dom';
+import { useSelector } from 'react-redux';
+import { AuthContext } from '@/App';
 import Button from '@/components/atoms/Button';
 import Badge from '@/components/atoms/Badge';
 import ApperIcon from '@/components/ApperIcon';
 
 const Header = () => {
   const location = useLocation();
+  const { logout } = useContext(AuthContext);
+  const { user } = useSelector((state) => state.user);
   const [currentSprint] = useState("Sprint 23");
   const [sprintStatus] = useState("active");
 
@@ -79,7 +83,7 @@ const Header = () => {
             </Badge>
           </div>
 
-          {/* Right Section */}
+{/* Right Section */}
           <div className="flex items-center space-x-4">
             {/* Quick Actions */}
             <div className="hidden sm:flex items-center space-x-2">
@@ -105,6 +109,20 @@ const Header = () => {
               />
             </div>
 
+            {/* User Info & Logout */}
+            {user && (
+              <div className="hidden lg:flex items-center space-x-3 px-3 py-2 bg-slate-50 rounded-lg">
+                <div className="w-8 h-8 bg-primary-500 rounded-full flex items-center justify-center">
+                  <span className="text-white text-sm font-bold">
+                    {user.firstName?.charAt(0) || user.emailAddress?.charAt(0) || 'U'}
+                  </span>
+                </div>
+                <span className="text-sm font-medium text-slate-700">
+                  {user.firstName || user.emailAddress?.split('@')[0] || 'User'}
+                </span>
+              </div>
+            )}
+
             {/* Create Task Button */}
             <Button
               variant="primary"
@@ -113,6 +131,18 @@ const Header = () => {
               className="shadow-lg hover:shadow-xl"
             >
               <span className="hidden sm:inline">New Task</span>
+            </Button>
+
+            {/* Logout Button */}
+            <Button
+              variant="ghost"
+              size="sm"
+              icon="LogOut"
+              onClick={logout}
+              className="text-slate-600 hover:text-slate-800"
+              title="Logout"
+            >
+              <span className="hidden sm:inline">Logout</span>
             </Button>
 
             {/* Mobile Menu */}

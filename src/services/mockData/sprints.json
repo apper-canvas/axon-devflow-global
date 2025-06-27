@@ -1,0 +1,57 @@
+[
+  {
+    "Id": 1,
+    "name": "Sprint 23 - Authentication & UI",
+    "startDate": "2024-01-15T00:00:00Z",
+    "endDate": "2024-01-29T23:59:59Z",
+    "status": "completed",
+    "teamId": 1,
+    "goals": "Complete user authentication system, implement responsive navigation, and establish core UI components for the platform.",
+    "createdAt": "2024-01-10T10:00:00Z",
+    "updatedAt": "2024-01-29T18:30:00Z"
+  },
+  {
+    "Id": 2,
+    "name": "Sprint 24 - Performance & Testing",
+    "startDate": "2024-01-30T00:00:00Z",
+    "endDate": "2024-02-13T23:59:59Z",
+    "status": "active",
+    "teamId": 1,
+    "goals": "Optimize application performance, implement comprehensive testing suite, and enhance security compliance measures.",
+    "createdAt": "2024-01-25T14:20:00Z",
+    "updatedAt": "2024-02-05T09:15:00Z"
+  },
+  {
+    "Id": 3,
+    "name": "Sprint 25 - Mobile & Integration",
+    "startDate": "2024-02-14T00:00:00Z",
+    "endDate": "2024-02-28T23:59:59Z",
+    "status": "planned",
+    "teamId": 1,
+    "goals": "Focus on mobile experience optimization, third-party integrations, and advanced user features.",
+    "createdAt": "2024-02-01T11:45:00Z",
+    "updatedAt": "2024-02-01T11:45:00Z"
+  },
+  {
+    "Id": 4,
+    "name": "Sprint 26 - Analytics & Reporting",
+    "startDate": "2024-03-01T00:00:00Z",
+    "endDate": "2024-03-15T23:59:59Z",
+    "status": "planned",
+    "teamId": 1,
+    "goals": "Implement analytics dashboard, user behavior tracking, and comprehensive reporting features for stakeholders.",
+    "createdAt": "2024-02-20T16:30:00Z",
+    "updatedAt": "2024-02-20T16:30:00Z"
+  },
+  {
+    "Id": 5,
+    "name": "Sprint 22 - Foundation Setup",
+    "startDate": "2024-01-01T00:00:00Z",
+    "endDate": "2024-01-14T23:59:59Z",
+    "status": "completed",
+    "teamId": 1,
+    "goals": "Set up project infrastructure, establish development workflows, and create basic application architecture.",
+    "createdAt": "2023-12-28T09:00:00Z",
+    "updatedAt": "2024-01-14T20:45:00Z"
+  }
+]

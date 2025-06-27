@@ -1,0 +1,90 @@
+[
+  {
+    "Id": 1,
+    "name": "Alex Chen",
+    "role": "dev",
+    "avatar": "",
+    "capacity": 8,
+    "email": "alex.chen@devflow.com",
+    "skills": ["React", "Node.js", "TypeScript", "GraphQL"],
+    "createdAt": "2023-11-15T09:00:00Z",
+    "updatedAt": "2024-01-18T14:30:00Z"
+  },
+  {
+    "Id": 2,
+    "name": "Sarah Martinez",
+    "role": "dev",
+    "avatar": "",
+    "capacity": 10,
+    "email": "sarah.martinez@devflow.com",
+    "skills": ["Vue.js", "Python", "Django", "PostgreSQL"],
+    "createdAt": "2023-10-20T10:15:00Z",
+    "updatedAt": "2024-01-17T11:20:00Z"
+  },
+  {
+    "Id": 3,
+    "name": "Michael Johnson",
+    "role": "dev",
+    "avatar": "",
+    "capacity": 7,
+    "email": "michael.johnson@devflow.com",
+    "skills": ["Angular", "Java", "Spring Boot", "MySQL"],
+    "createdAt": "2023-12-01T13:45:00Z",
+    "updatedAt": "2024-01-18T09:10:00Z"
+  },
+  {
+    "Id": 4,
+    "name": "Emma Wilson",
+    "role": "dev",
+    "avatar": "",
+    "capacity": 9,
+    "email": "emma.wilson@devflow.com",
+    "skills": ["React Native", "Flutter", "Firebase", "AWS"],
+    "createdAt": "2023-11-08T16:20:00Z",
+    "updatedAt": "2024-01-16T15:45:00Z"
+  },
+  {
+    "Id": 5,
+    "name": "David Kim",
+    "role": "tester",
+    "avatar": "",
+    "capacity": 6,
+    "email": "david.kim@devflow.com",
+    "skills": ["Selenium", "Jest", "Cypress", "API Testing"],
+    "createdAt": "2023-11-22T11:30:00Z",
+    "updatedAt": "2024-01-18T16:25:00Z"
+  },
+  {
+    "Id": 6,
+    "name": "Lisa Rodriguez",
+    "role": "tester",
+    "avatar": "",
+    "capacity": 8,
+    "email": "lisa.rodriguez@devflow.com",
+    "skills": ["Manual Testing", "Automation", "Performance Testing", "Security Testing"],
+    "createdAt": "2023-10-15T08:45:00Z",
+    "updatedAt": "2024-01-17T13:50:00Z"
+  },
+  {
+    "Id": 7,
+    "name": "James Thompson",
+    "role": "pm",
+    "avatar": "",
+    "capacity": 5,
+    "email": "james.thompson@devflow.com",
+    "skills": ["Agile", "Scrum", "Stakeholder Management", "Product Strategy"],
+    "createdAt": "2023-09-10T07:20:00Z",
+    "updatedAt": "2024-01-18T12:15:00Z"
+  },
+  {
+    "Id": 8,
+    "name": "Rachel Davis",
+    "role": "pm",
+    "avatar": "",
+    "capacity": 6,
+    "email": "rachel.davis@devflow.com",
+    "skills": ["Project Planning", "Risk Management", "Team Leadership", "Process Improvement"],
+    "createdAt": "2023-11-01T12:10:00Z",
+    "updatedAt": "2024-01-16T10:40:00Z"
+  }
+]
